@@ -1,0 +1,8 @@
+target/
+reports/*.csv
+reports/*.json
+reports/*.html
+.idea/
+.classpath
+.project
+.settings/

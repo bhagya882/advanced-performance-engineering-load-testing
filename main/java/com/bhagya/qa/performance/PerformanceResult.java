@@ -1,0 +1,2 @@
+package com.bhagya.qa.performance;
+public class PerformanceResult { public final String scenario;public final int users,totalRequests,successfulRequests,failedRequests;public final long durationMs,p50Ms,p95Ms,p99Ms;public final double throughputPerSecond,errorRatePercent;public PerformanceResult(String s,int u,int t,int ok,int bad,long d,long p50,long p95,long p99,double th,double er){scenario=s;users=u;totalRequests=t;successfulRequests=ok;failedRequests=bad;durationMs=d;p50Ms=p50;p95Ms=p95;p99Ms=p99;throughputPerSecond=th;errorRatePercent=er;} }
